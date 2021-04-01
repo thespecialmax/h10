@@ -1,0 +1,687 @@
+/*
+  Theme Name: 		Benedicta Child
+  Theme URI: 		https://benedicta.evatheme.com/demo/
+  Description: 		Child Theme for the Benedicta - Modern Restaurant WordPress Theme
+  Author: 			Evatheme
+  Author URI: 		https://www.evatheme.com/
+  Version: 			1.0
+  Template: 		benedicta
+*/
+
+/* Enter below your Customization CSS */
+
+
+@font-face {
+	font-family: 'NeutrTexGreDem';  
+	src: url("../NeutrTexGreDem.otf");  
+	font-weight: normal;  
+}  
+@font-face {
+	font-family: 'NeutrTexGreBol';  
+	src: url("../NeutrTexGreBol.otf");  
+	font-weight: normal;  
+}  
+
+@font-face {
+	font-family: 'NeutrTexGreBoo';  
+	src: url("../NeutrTexGreBoo.otf");  
+	font-weight: normal;  
+}  
+body.error404 header.header-top .header_wrap, body.header-fixed header.header-top .header_wrap, header.header-top .header_wrap.headroom--not-top, body.single-portfolio header.header-top .header_tagline, #page-wrap > header#header_mobile_wrap {
+    background-color: #231F20;
+}
+.uvc-heading h2 {
+   font-family: 'NeutrTexGreDem',"Open Sans",sans!important;
+   font-size: 13px;
+    line-height: 23px;
+}
+.evatheme_core-menu-wrap.type3 .menu_item h4,.home .ult-content-box .aio-icon-description {
+    font-family: 'Open Sans'!important;
+ }
+.home .evatheme_core-menu-wrap .menu_item_title_span,  header .header_btn,.uvc-heading .uvc-sub-heading,.aio-icon-title,button span.ubtn-text,header.header-top .menu-primary-menu-container-wrap > ul > li > a, header.left_fixed .menu-primary-menu-container-wrap > ul > li > a,header.header-top .menu-primary-menu-container-wrap .sub-menu li.menu-item a, header.left_fixed .menu-primary-menu-container-wrap .sub-menu li.menu-item a {
+    font-family: 'NeutrTexGreDem',"Open Sans",sans!important;
+}
+.home .colored-boxes .vc_column_container:first-child   {
+    display: none;
+}
+.home .colored-boxes .vc_column_container:first-child .aio-icon-header h3.aio-icon-title {
+    margin-bottom: 32px;
+}
+.home .colored-boxes .ult-content-box{
+    min-height:432px;
+}
+.home .testimonials .social_link {
+    display: inline-block;
+    vertical-align: top;
+    width: 65px;
+    height: 65px;
+    margin: 0 10px 0 0;
+    text-align: center;
+    line-height: 65px;
+    font-size: 40px;
+}
+.social_link .fa-google-plus:before {
+    content: "\f1a0";
+}
+
+@media (max-width:1150px){
+    .home .colored-boxes .vc_col-sm-3{
+        width: 50%;
+    }
+}
+@media (max-width:768px){
+    .home .colored-boxes .vc_col-sm-3{
+        width: 100%;
+    }
+}
+/*
+#pagetitle h2{
+	font-family: 'Amatic SC'!important;
+}
+#pagetitle > .container {
+	padding-top: 120px!important;
+}
+#pagetitle .container::before {
+    content: "";
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    left: 50%;
+    top: 0;
+    transform: translate(-50%,0);
+    -webkit-transform: translate(-50%,0);
+    -moz-transform: translate(-50%,0);
+    -ms-transform: translate(-50%,0);
+    -o-transform: translate(-50%,0);
+    -webkit-background-size: contain;
+    -moz-background-size: contain;
+    -o-background-size: contain;
+    background-size: contain;
+    background: url(https://purejuicebar.gr/wp-content/uploads/2019/06/header-icon2.png) no-repeat scroll center center transparent;
+}*/
+
+.vc_custom_1536355316742 .uvc-heading .uvc-sub-heading{
+    color:#fff!important;
+}
+
+.boxzilla-newsletter-popup {
+    text-align: center!important;
+    color: #000000!important;
+}
+.boxzilla-newsletter-popup h4.first-child {
+    line-height: 40px;
+    letter-spacing: 0px;
+    font-weight: 700;
+    font-style: normal;
+    color: #000000;
+    font-size: 28px;
+}
+.boxzilla-newsletter-popup label,.boxzilla-newsletter-popup a {
+    padding-bottom: 0;
+    font-size: 12px;
+    line-height: normal;
+        vertical-align: unset;
+}
+.header_wrap .menu-primary-menu-container-wrap {
+    margin-top: 6px;
+}
+
+.home .evatheme_core-menu-wrap.type3 .menu_item .line{display: none;}
+.home .upb_bg_overlay{background-color: rgba(17,17,17,0.6)!important;}
+
+.page-id-336 .vc_toggle_title>h4 {
+    font-family: 'NeutrTexGreDem';  
+    line-height: 20px;
+    font-size: 20px;
+}
+.page-id-336 .vc_toggle_content {
+    background: #000;
+}
+.page-id-336 .vc_toggle_content {
+    color: #fff;
+
+}
+.page-id-336 .vc_toggle_content p{
+    color: #fff;
+}
+.page-id-336 .vc_toggle_content:before {
+    position: relative;
+    top: 15px;
+    left: 0;
+    background-image: url(../images/A.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    display: inline-block;
+    content: ' ';
+    width: 65px;
+    height: 65px;
+    margin: 30px auto;
+}
+
+
+.page-id-12144 .vc_toggle_title>h4 {
+    font-family: 'NeutrTexGreDem';  
+    line-height: 20px;
+    font-size: 20px;
+}
+.page-id-12144 .vc_toggle_content {
+    background: #000;
+}
+.page-id-12144 .vc_toggle_content {
+    color: #fff;
+
+}
+.page-id-12144 .vc_toggle_content p{
+    color: #fff;
+}
+.page-id-12144 .vc_toggle_content:before {
+    position: relative;
+    top: 15px;
+    left: 0;
+    background-image: url(../images/A.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    display: inline-block;
+    content: ' ';
+    width: 65px;
+    height: 65px;
+    margin: 30px auto;
+}
+
+
+
+.page-id-188 .ult-content-box .aio-icon-description {
+    font-family: 'NeutrTexGreDem',"Open Sans",sans!important;
+    font-size: 18px!important;
+    line-height: 24px!important;
+    margin-top: 0!important;
+
+ }
+ .page-id-188 .ult-content-box {
+     min-height:146px;
+ }
+
+ .page-id-12153 .ult-content-box .aio-icon-description {
+    font-family: 'NeutrTexGreDem',"Open Sans",sans!important;
+    font-size: 18px!important;
+    line-height: 24px!important;
+    margin-top: 0!important;
+
+ }
+ .page-id-12153 .ult-content-box {
+     min-height:146px;
+ }
+ /*
+ .glf-button {
+    display: inline-block;
+    padding-top: 0px!important;
+    padding-bottom: 0px!important;
+    padding-right: 5px!important;
+    padding-left: 5px!important;
+    margin: 0px!important;
+    box-sizing: border-box;
+    cursor: pointer;
+    text-align: center;
+    vertical-align: middle;
+    color: #fff !important;
+    text-decoration: none !important;
+    font-family: NeutrTexGreDem!important;
+    font-size: 14px!important;
+    font-weight: bold;
+    text-shadow: 0 0px 0 rgba(0,0,0,.0);
+    border-radius: 0px;
+    background-clip: none;
+    box-shadow: 0 0px 0 rgba(0,0,0,.0)!important;
+    background-image: none!important;
+    background-image: none!important;
+}
+
+ #menu_btn {
+    font-family: "PT Sans", Arial, Helvetica, sans-serif!important;
+    position: fixed;
+    left: 34px;
+    bottom: 20px !important;
+    z-index: 99;
+}
+#menu_btn ul{
+    padding:0;
+    margin:0;
+}
+#menu_btn li {
+    list-style: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    bottom: 10px;
+    margin-top: 8px;
+    position: relative;
+    height: 110px;
+    width: 110px;
+    background-color: #ef8b17;
+    border: 1px solid #fff;
+    border-radius: 100px;
+    box-shadow: 0 3px 9px 0 rgba(0,0,0,0.27);
+    font-weight: bold;
+    font-family: NeutrTexGreBol;
+}
+#menu_btn li:hover{
+	background-color: #333;
+} 
+#menu_btn a.menu_btn_label {
+    font-size: 16px;
+    font-weight: normal;
+    color: white;
+    text-align: center;
+    letter-spacing: 0.02em;
+    z-index: 999;
+    display:block;
+    width:100%;
+    height:100%;
+    border-radius: 100px;
+}
+#menu_btn .gloriafood-button,#menu_btn .glf-button{
+    background-color: transparent;
+    padding-top: 26px!important;
+    padding-bottom: 26px!important;
+    display: inline-block;
+}
+
+@media screen and (max-width: 600px) {
+#menu_btn {
+    font-family: "PT Sans", Arial, Helvetica, sans-serif!important;
+    position: fixed;
+    left: 0;
+    bottom: 0 !important;
+    z-index: 99;
+    width: 100%;
+}
+#menu_btn ul{
+    padding: 0;
+    margin: 0;
+}
+#menu_btn li {
+    list-style: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    bottom: 0;
+    margin-top: 8px;
+    position: relative;
+    height: 50px;
+    width: 100%;
+    background-color: #ef8b17;
+    border: 1px solid #fff;
+    border-radius: 0;
+    box-shadow: 0 3px 9px 0 rgba(0,0,0,0.27);
+    font-weight: bold;
+    font-family: NeutrTexGreBol;
+}
+#menu_btn a.menu_btn_label {
+    font-size: 16px;
+    font-weight: normal;
+    color: white;
+    text-align: center;
+    letter-spacing: 0.02em;
+    z-index: 999;
+    display: block;
+    width: 100%;
+    height: 100%;
+    border-radius: 100px;
+}
+#menu_btn .gloriafood-button, #menu_btn .glf-button {
+    background-color: transparent;
+    padding-top: 15px!important;
+    padding-bottom: 0!important;
+}
+}*/
+
+.evatheme_core-menu-wrap.type2 .menu_item_ingredients {
+    margin-bottom: 0;
+    line-height: 23px;
+    font-size: 13px;
+}
+.evatheme_core-menu-wrap.type2 .menu_item_ingredients.ingredients_trans {
+    margin-bottom: 0;
+    line-height: 23px;
+    font-size: 13px;
+    margin-bottom: 14px;
+    font-style: italic;
+}
+
+
+/* MENU NAV */
+.menu-nav {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    background: #292929;
+    display: inline-block;
+    height: auto;
+    position: fixed;
+    top: 50%;
+left: 0;
+transform: translate(0, -50%);
+font-family: 'NeutrTexGreDem',"Open Sans",sans!important;
+  }
+  .menu-nav li {
+    cursor: pointer;
+    border-top: 1px solid #757575;
+    border-bottom: 1px solid #757575;
+    margin-bottom: -1px;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    font-size: 18px;
+    font-family: 'NeutrTexGreDem',"Open Sans",sans!important;
+    color: #ffffff;
+  }
+  .menu-nav li div.short,
+  .menu-nav li div.animated {
+    position: absolute;
+    text-align: center;
+    animation-duration: 0.34s;
+  }
+  .menu-nav li div.animated {
+    margin-left: 40px;
+    text-align: center;
+    width: 160px;
+  }
+  .menu-nav li div.short {
+    line-height: 40px;
+    width: 40px;
+    z-index: 9;
+    background: #231F20;
+  }
+  .menu-nav li div.animated {
+    display: none;
+    z-index: 1;
+    background: #a7ca23;
+  }
+  
+  .menu-nav li:hover > div.animated {
+    display: inline-block;
+  }
+  .menu-nav li:hover div.short {
+    background: #a7ca23;
+  }
+  
+  @media (max-width:768px){
+    .menu-nav{
+        display:none;
+    }
+}
+
+
+
+  .page-id-189 .forcefullwidth_wrapper_tp_banner{
+      z-index: 999;
+  }
+  .page-id-189 .menu-nav{
+    z-index: 998;
+}
+.page-id-189 .uvc-heading .uvc-sub-heading h6{
+    line-height: 18px;
+    font-size: 14px;
+}
+
+.page-id-12175 .forcefullwidth_wrapper_tp_banner{
+    z-index: 999;
+}
+.page-id-12175 .menu-nav{
+  z-index: 998;
+}
+.page-id-12175 .uvc-heading .uvc-sub-heading h6{
+  line-height: 18px;
+  font-size: 14px;
+}
+
+
+
+footer #prefooter_area {
+    color: #ffffff;
+    background-color: #000000;
+}
+
+footer #prefooter_area {
+    line-height: 28px;
+    font-size: 14px;
+}
+#prefooter_area > .container {
+    padding-top: 0!important;
+}
+#prefooter_area aside.widget,#prefooter_area aside.widget .wpb_row  {
+    margin-bottom: 0!important;
+}
+#prefooter_area  .uvc-heading  h2 {
+    font-size: 18px;
+    line-height: 30px;
+    color: #fff!important;
+}
+#prefooter_area  .uvc-heading .uvc-sub-heading {
+    font-size: 15px;
+    line-height: 18px;
+    color: #fff!important;
+}
+#prefooter_area .uvc-headings-line{
+    display: block;
+    width: 100%;
+    max-width: 100%;
+    border-style: solid;
+    border-bottom-width: 3px;
+    border-color: rgb(128, 204, 81);
+    width: 50px;
+    margin: 0px auto;
+}
+
+footer #footer_bottom {
+    color: #dddddd;
+    background-color: #111111;
+}
+.author #page-content{
+    margin-top:0!important;
+}
+.author_posts_info{
+    margin-bottom:0!important;
+}
+.author .author-social-links{
+    margin-bottom:20px;
+}
+
+
+
+/* FLOATING MENU ORDER */
+.menu_btn{
+	position:fixed;
+	width:110px;
+	height:110px;
+	bottom:20px;
+	right:20px;
+	background-color:#ef8b17;
+	color:#FFF;
+	text-align:center;
+	box-shadow: 2px 2px 3px #999;
+	z-index:1000;
+	background-color: #ef8b17;
+    border: 1px solid #fff;
+    border-radius: 100px;
+    box-shadow: 0 3px 9px 0 rgba(0,0,0,0.27);
+    font-weight: bold;
+    font-family: NeutrTexGreBol;
+}
+.menu_btn:hover{
+	background-color: #333;
+} 
+.menu_btn a {
+    font-size: 16px;
+    font-weight: normal;
+    color: white;
+    text-align: center;
+    letter-spacing: 0.02em;
+    z-index: 999;
+    display: block;
+    width:100%;
+    height:100%;
+    padding-top: 26px!important;
+    border-radius: 100px;
+}
+
+.menu_elements ul{
+	position:fixed;
+	right:35px;
+	padding-bottom:20px;
+	bottom:80px;
+	z-index:100;
+}
+
+.menu_elements ul li{
+	list-style:none;
+	margin-bottom:10px;
+}
+
+.menu_elements ul li a{
+	border-radius:80px;
+	text-align:center;
+	box-shadow: 2px 2px 3px #999;
+	width:80px;
+	height:80px;
+	display:block;
+}
+.menu_elements ul li a img{
+	border-radius:50%;
+}
+.menu_elements ul:hover{
+	visibility:visible!important;
+	opacity:1!important;
+}
+
+
+.my-float{
+	font-size:24px;
+	margin-top:18px;
+}
+
+.menu_btn + .menu_elements ul{
+  visibility: hidden;
+}
+
+.menu_btn:hover + .menu_elements ul{
+  visibility: visible;
+  animation: scale-in 0.5s;
+}
+/*
+.home .rev_slider .tp-caption {
+    font-family: 'NeutrTexGreDem',"Open Sans",sans!important;
+}*/
+.col-sm-6.social_links_wrap.text-right {
+    padding-right: 100px;
+}
+@media (max-width:768px){
+    .menu_btn + .menu_elements ul {
+        visibility: visible;
+    }
+    .menu_btn{
+        position:fixed;
+        width:100%;
+        height:40px;
+        bottom:40px;
+        right:0;
+        background-color:#333;
+        color:#FFF;
+        text-align:center;
+        box-shadow: none;
+        z-index:1000;
+        background-color: #333;
+        border: transparent;
+        border-radius: 0;
+        box-shadow: none;
+        font-weight: bold;
+        font-family: NeutrTexGreBol;
+    }
+    .menu_btn:hover{
+        background-color: #333;
+    } 
+    .menu_btn a {
+        font-size: 10px;
+        font-weight: normal;
+        color: white;
+        text-align: center;
+        letter-spacing: 0.02em;
+        z-index: 999;
+        display: block;
+        width:100%;
+        height:100%;
+        padding-top: 0!important;
+        border-radius: 0;
+        line-height: 40px;
+    }
+    .menu_elements{
+    position: fixed;
+    width: 100%;
+    right: 0;
+    padding-bottom: 0;
+    bottom: 0;
+    z-index: 100;
+    display: block;
+    height: 40px;
+    }
+    .menu_elements ul{
+        position:relative;
+        width:100%;
+        right:0;
+        padding-bottom:0;
+        bottom:0;
+        z-index:100;
+        display:block;
+        margin:0;
+        padding:0;
+    }
+    .menu_elements ul li{
+        display:inline-block;
+        width:50%;
+        text-align:center;
+        margin-bottom: 0;
+        float: left;
+        margin:0;
+        padding:0;
+    }
+    .menu_elements ul li a{
+        border-radius:0;
+        text-align:center;
+        box-shadow: none;
+        width:100%;
+        height:40px;
+        display:block;
+    }
+    .menu_elements ul li a img{
+        width:auto;
+        height:100%;
+    }
+    #menu-efood{
+        background-color: #ee2d2e;
+    }
+    #menu-wolt{
+        background-color: #0112e6;
+    }
+    #page-wrap {
+        padding-bottom: 80px;
+    }
+    .col-sm-6.social_links_wrap.text-right {
+        padding-right: 15px;
+    }
+}
+
+
+#footer-backtop{
+    position: absolute;
+    z-index: 100;
+    bottom: 0;
+    right: 0;
+    display: none;
+    width: 40px;
+    height: 40px;
+    background-color: #fff;
+    transition: background-color 0.2s ease-in-out;
+
+}
